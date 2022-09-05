@@ -20,19 +20,19 @@ title                    : "yangkeeCandle"
 title_separator          : "|"
 subtitle                 : "take your candle and light the world."
 name                     : "Leo Yang"
-description              : "This is my personal website."
+description              : "yangkeecandle의 블로그 입니다."
 url                      : "https://yangkeecandle.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/yangkeecandle1.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default),  "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "yangkeeCandle"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Leo Yang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "zerobase 4th"
+  name             : "Hi, I'm Leo Yang"
+  avatar           : "/assets/images/profile1.png"
+  bio              : "Backend Developer \n Boston Univ. Class of 2020 \n Bacheolor's in Computer Science"
   location         : "Seoul, Korea"
   email            : "yangkeecandle@gmail.com"
   links:
@@ -287,6 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      show_date: true
