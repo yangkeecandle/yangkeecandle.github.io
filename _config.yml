@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/profile1.png"
   bio              : "Backend Developer \n Boston Univ. Class of 2020 \n Bacheolor's in Computer Science"
   location         : "Seoul, Korea"
-  email            : "yangkeecandle@gmail.com"
+  email            : # "yangkeecandle@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.yangkeecandle@email.com"
+      url: "mailto:your.yangkeecandle@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://yangkeecandle.github.io"
