@@ -1,18 +1,4 @@
-```
----   
-layout: post  
-author: Leo Yang  
-title: [ 백준 ] 2438번: 별 찍기 - 1
-description: 아마 대부분 언어를 처음 배울 때 반복문에서 가장 많이 하는 실습이 별찍기 일 것이다.
-그정도로 반복문을 어떻게 짜느냐가 중요하다고 할 수 있을 것이다.
----
-```  
-[  
-https://www.acmicpc.net/problem/2438](https://www.acmicpc.net/problem/2438)
-
-[](https://www.acmicpc.net/problem/2438)
-
-2438번: 별 찍기 - 1
+# 2438번: 별 찍기 - 1
 
 첫째 줄에는 별 1개, 둘째 줄에는 별 2개, N번째 줄에는 별 N개를 찍는 문제
 

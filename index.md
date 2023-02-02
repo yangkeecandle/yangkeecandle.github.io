@@ -14,26 +14,9 @@ United States of America
 
 군필 | 해병 병장 만기제대
 
-![IMG_1386.jpg](Leo%20Yang%20%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20c85b237f7aea41fe806d7a63e39a3b34/IMG_1386.jpg)
 
-**Channel**
+<img src="/assets/img/img2.jpg" alt="MarineGEO circle logo" style="height: 350px; width:300px;"/>
 
-**Github** : [https://github.com/yangkeecandle](https://github.com/yangkeecandle)
-
- ****
-**Contact**
-
-**Phone :🇰🇷**+82 10-4076-5503
-
-        🇺🇸+1 714-686-6785
-
-**Email :** yangkeecandle@gmail.com
-
-**More About Me**
-
-**Instagram :** [https://www.instagram.com/yangkyz/](https://www.instagram.com/yangkyz/)
-
-**Youtube :** [youtu.be/MwVlaj486Go](https://l.instagram.com/?u=https%3A%2F%2Fyoutu.be%2FMwVlaj486Go&e=AT0JmlDaNc5FEldn5f8E6-rOZuWOuOtPM5nmEbfgmf_Wm0G8ZVA4Y2jhW59FwztUGBklbk7N7OJCw19bqdP2zZEL5jhprnYcZxGRZA)
 
 ### **Education**
 
@@ -155,12 +138,3 @@ BTL마케팅, 국내외 행사기획 및 전시 | 서울 대치동
     - 깃허브 링크:
 
     [https://github.com/yangkeecandle/AccountSystem](https://github.com/yangkeecandle/AccountSystem)
-
-
-### 국방홍보원 ROKMC Music Player
-
-- 국방홍보원에서 제공되는 뮤직비디오 및
-    - 소개 및 강조하고 싶은 내용
-    - 사용 기술
-    - 결과 및 성과
-    - 깃허브 및 포트폴리오 노션 링크
