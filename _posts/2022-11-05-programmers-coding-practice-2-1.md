@@ -1,9 +1,11 @@
-﻿---   
+```
+---   
 layout: post  
 author: Leo Yang  
 title: [ 프로그래머스 ] 비어있는 숫자중 가장 작은 숫자 출력하기
-
+description: 촘촘이는 무엇이든 연속으로 가득찬 것을 좋아한다. 이번에 촘촘이가 빠진 취미는 빠짐없이 연속된 숫자를 모으는 것이다.
 ---  
+```
 
 # 비어있는 숫자
 ## 문제
@@ -49,7 +51,7 @@ public static int solution2(int[] numbers) {
     }  
     return -1;  
 }  
-  
+
 public static void main(String[] args){  
     int[] n = {9,4,2,3,7,5};  
   System.out.println(solution(n));  

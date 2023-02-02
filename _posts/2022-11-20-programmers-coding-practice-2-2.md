@@ -1,10 +1,11 @@
-﻿---   
+```
+---   
 layout: post  
 author: Leo Yang  
 title: [ 프로그래머스 ] 배열 덧셈기
-
+description: 컴퓨터는 정수를 표현할 때, 자료형에 따라 표현 가능한 숫자의 범위가 정해져있다. 기산이는 이러한 한계를 해결하고자, 숫자를 배열로 표현하기로 하였다.
 ---  
-
+```
 # 배열 덧셈기
 ## 문제
 
@@ -46,7 +47,7 @@ title: [ 프로그래머스 ] 배열 덧셈기
 ## 코드
 ```java
 import java.util.Stack;  
-  
+
 public class Problem2 {  
     public static int[] solution(int[] a, int[] b) {  
         int[] answer = {};  
@@ -54,20 +55,20 @@ public class Problem2 {
  int maxLen = Math.max(a.length, b.length);  
  int offsetA = maxLen - a.length;  
  int offsetB = maxLen - b.length;  
-  
+
  if(a.length == 0){  
             return b;  
   }  
         if(b.length == 0){  
             return a;  
   }  
-  
+
         int overflow = 0;  
  for(int i = maxLen - 1; i >= 0; i--){  
             int aVal = (i - offsetA < 0) ? 0 : a[i - offsetA];  
  int bVal = (i - offsetB < 0) ? 0 : b[i - offsetB];  
  int cVal = aVal + bVal + overflow;  
-  
+
  if(cVal >= 10) {  
                 overflow = 1;  
   stack.push(cVal - 10);  
@@ -76,30 +77,30 @@ public class Problem2 {
   stack.push(cVal);  
   }  
         }  
-  
+
         int resLen = maxLen;  
  if(overflow == 1){  
             resLen++;  
   stack.push(1);  
   }  
-  
+
         int[] result = new int[resLen];  
  for(int i = 0; i < resLen; i++){  
             result[i] = stack.pop();  
   }  
         return result;  
-  
-  
+
+
   }  
-  
-  
+
+
     public static void main(String[] args){  
         int[] a = {5,2,1,4,6};  
  int[] b = {6,1,0,4,4};  
-  
+
   System.out.println(solution(a,b));  
   }  
-  
+
 }
 ```
 > Written by Leo Yang

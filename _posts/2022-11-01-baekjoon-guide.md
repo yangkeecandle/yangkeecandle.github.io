@@ -1,10 +1,11 @@
-﻿---   
+```
+---   
 layout: post  
 author: Leo Yang  
 title: [ 백준 ] JAVA 문제풀이 주의점
-
+description: main문 자체가 static 함수이므로 거기서 사용하는 전역변수 및 모든 함수또한 static이어야 한다. 뭐 문제 푸는데 지장이 있는건 아니지만 그냥 static 안쓰면 동작이 안되니까 써둔걸로밖에 안보인다.
 ---  
-
+```
 # JAVA 백준 문제풀이 주의점
 ### 1. 클래스명은 'Main', 패키지는 없어야 한다.
 

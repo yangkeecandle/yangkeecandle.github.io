@@ -4,7 +4,7 @@ layout: post
 author: Leo Yang  
 title: [ 프로그래머스 ] N보다 작은 소수의 개수  
 date: 2022-10-28 09:20:05 -0600  
-description: 
+description: 소수란 자기 자신과 1만을 약수로 가지는 자연수를 말한다. 예를 들어, 2, 3, 5는 소수이지만, 1, 4, 6은 소수가 아니다.
 ---  
 ```
 
@@ -43,12 +43,12 @@ description:
 
 ```java
 import java.util.Arrays;  
-  
+
 public class problem1 {  
-  
+
     public static int solution(int n) {  
         int[] intArray = new int[n];  
-  
+
 	 // initialize array elements to 1  
 	 // 1 is true // 0 is false  
 		 for(int i = 2; i < n; i++){  
@@ -58,7 +58,7 @@ public class problem1 {
   intArray 배열을 1로 Initialize 해준다.
   n보다 작은 소수일경우 intArray[i]는 1, 소수가 아닐 경우 0
   ```java
-  
+
         for(int i = 2; i <= (int)Math.sqrt(n); i++){  
             if(intArray[i] == 0)  
                 continue;  
@@ -79,7 +79,7 @@ sqrt(n)보다 큰 수의 배수는 찾을 필요가 없기 때문에 반복문�
 ```java
         return Arrays.stream(intArray).sum();  
   }  
-  
+
     public static void main(String[] args){  
         System.out.println(solution(15));  
   }  
@@ -89,19 +89,19 @@ Arrays.stream().sum() Method를 통해 배열에 있는 소수의 개수를 더�
 ## 전체코드
 ```java
 import java.util.Arrays;  
-  
+
 public class problem1 {  
-  
+
     public static int solution(int n) {  
         int[] intArray = new int[n];  
-  
+
 		 // initialize array elements to 1  
 		 // 1 is true // 0 is false  
 		 for(int i = 2; i < n; i++){  
             intArray[i] = 1;  
 		 }  
-  
-  
+
+
         for(int i = 2; i <= (int)Math.sqrt(n); i++){  
             if(intArray[i] == 0)  
                 continue;  
@@ -111,10 +111,10 @@ public class problem1 {
 				num += i;  
 			}  
         }  
-  
+
         return Arrays.stream(intArray).sum();  
   }  
-  
+
     public static void main(String[] args){  
         System.out.println(solution(15));  
   }  
@@ -122,4 +122,3 @@ public class problem1 {
 ```
 
 > Written by Leo Yang
-

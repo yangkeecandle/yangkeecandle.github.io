@@ -1,10 +1,11 @@
-﻿---   
+```
+---   
 layout: post  
 author: Leo Yang  
 title: [ 프로그래머스 ] 맥주잔 쌓기 문제
-
+description: 아리는 치킨과 맥주를 무척이나 좋아한다. 맥주를 즐기다 보니, 맥주잔을 예쁘게 쌓아 올리는 것에 관심이 생겼다.
 ---  
-
+```
 # 맥주잔 쌓기
 ## 문제
 
@@ -46,11 +47,11 @@ public class problem3 {
 		 if(N <= 2){  
 	         return N;  
   }  
-  
+
         return solution(N-1) + solution(N-2);  
-  
+
   }  
-  
+
     public static void main(String[] args){  
         System.out.println(solution(10));  
   }  

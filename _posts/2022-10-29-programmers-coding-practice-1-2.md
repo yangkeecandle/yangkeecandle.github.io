@@ -1,10 +1,11 @@
-﻿---   
+```
+---   
 layout: post  
 author: Leo Yang  
 title: [ 프로그래머스 ] 배열에서 네명의 당첨자를 뽑는 경우의 수
-
+description: 민서는 회사에서 종일 일정으로 진행된 체육 행사를 주관하게 되었다. 즐겁게 행사를 마치고 경품 추첨 시간이 되었다.
 ---  
-
+```
 # 배열에서 네명의 당첨자를 뽑는 경우의 수
 ## 문제
 
@@ -43,16 +44,16 @@ title: [ 프로그래머스 ] 배열에서 네명의 당첨자를 뽑는 경우�
 import java.util.Arrays;  
 import java.util.HashSet;  
 import java.util.Set;  
-  
+
 public class problem2 {  
-  
+
     public static int solution(String[] names) {  
         // Use of Set removes all duplicated elements  
 		Set<String> set = new HashSet<>(Arrays.asList(names));  
 		int n = set.size();  
 		int m = 4;  
  ```
- Set을 통해 중복된 element를 제거해준뒤 업데이트된 사이즈를 n에 저장한다 
+ Set을 통해 중복된 element를 제거해준뒤 업데이트된 사이즈를 n에 저장한다
  ```java
   //nC4  
  long numerator = 1;  
@@ -61,9 +62,9 @@ public class problem2 {
             numerator *= n - i;  
 			   denominator *= (i + 1);  
   }  
-  
+
         return (int) (numerator / denominator);  
-  
+
   }  
     public static void main(String[] args){  
         String[] names = {"제로", "베이스", "자바", "스쿨", "자바", "베이스", "백엔드", "화이팅"};  
